@@ -1,0 +1,176 @@
+body{
+  background-color: #1B1C1E;
+  color: white;
+  font-family: Arial;
+}
+
+::-webkit-scrollbar {
+  width:5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+a:link{
+  text-decoration:none;
+  color:#8C52FF;
+}
+
+header{
+  padding:50px;
+}
+
+h1{
+  text-align: center;
+  font-size:80px;
+}
+
+#soustitre{
+  text-align: center;
+  font-size:25px;
+}
+
+.titres{
+  background-color:#232426;
+  padding:50px;
+  text-align:center;
+  font-size:45px;
+}
+
+.grille_rea{
+  display:grid;
+  overflow: hidden;
+  max-width:1400px;
+  width:80%;
+  height:auto;
+  margin:50px auto;
+  justify-content: center;
+  grid-gap:10px;
+}
+
+@media screen and (min-width: 480px) {
+  .grille_rea{
+    grid-template-columns: repeat(1,300px);
+    /* grid-template-rows: repeat(2,450px); */
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .grille_rea{
+    grid-template-columns: repeat(2,300px);
+    /* grid-template-rows: repeat(1,450px); */
+
+  } 
+}
+
+.img-carte{
+  border-radius:10px;
+}
+
+.infos-cartes{
+  padding-top:30px; 
+  padding-left:10px;
+  text-align: left;
+}
+
+span{
+  font-weight:lighter;
+}
+
+#Bravo{
+  text-align:center;
+  height:450px;
+  border-radius:15px;
+  background-color:#232426;
+}
+
+#Wordpress{
+  text-align:center;
+  height:450px;
+  border-radius:15px;
+  background-color:#232426;
+}
+
+#Mini-site{
+  text-align:center;
+  height:450px;
+  border-radius:15px;
+  background-color:#232426;
+}
+
+#Integration{
+  text-align:center;
+  height:450px;
+  border-radius:15px;
+  background-color:#232426;
+}
+
+.grille_perso{
+  display: grid;
+  height:auto;
+  padding-top:25px;
+  padding-bottom:50px;
+}
+
+@media screen and (min-width: 480px) {
+  .grille_perso{
+    grid-template-columns: repeat(1,1fr);
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .grille_perso{
+    grid-template-columns: repeat(2,1fr);
+  } 
+}
+
+#ID{
+  display: flex;
+  position: relative;
+  justify-self: center;
+  border-radius: 25px;
+}
+
+@media screen and (min-width:480px){
+  #ID{
+    height:100%;
+    width:100%;
+  }
+}
+
+@media screen and (min-width:1024px){
+  #ID{
+    height:100%;
+    width:80%;
+  }
+}
+
+#apropos{
+  display: flex; 
+  font-size:25px;
+  padding-left: 25px;
+}
+
+.foot{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding:50px;
+  background-color: #232426;
+}
+
+#mail{
+  justify-self:flex-end;
+  height:auto;
+  padding:15px;
+  padding-top:25px;
+  border-radius:15px;
+  color:black;
+  background-color:gainsboro;
+}
