@@ -6,13 +6,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="feuille_de_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
         <title>Portfolio</title>
+        <link rel="icon" type="image/png" href="medias/images/flavicon.png" />
     </head>
 
     <body>
         <header>
             <h1>Bienvenue sur mon Portfolio</h1>
-            <h2 id="soustitre">Ceci est mon Portfolio vous y retrouverez mes différentes créations</h2>
+            <h2 id="subtitle">Ceci est mon portfolio où vous pourrez découvrir mes différentes créations.</h2>
         </header>
         
         <main>
@@ -20,29 +24,47 @@
 
         <div class="grille_rea">
 
-            <div id="Mini-site">
+            <div class="cards" id="Mini-site">
                 <a href="https://site-de-formation.netlify.app/" target="_blank">
-                <h3>Mini-site</h3>
-                <img class="img-carte" src="medias/Images/Mini-site.png" height="140" width="285"alt="Image représentant l'appercu de la page">
+                <h3 class="title-card">Mini-site</h3>
+                <img class="img-carte" src="medias/images/Mini-site.png" height="140" width="285"alt="Image représentant l'appercu de la page">
                 </a>
 
                 <div class="infos-cartes">
                     <h3>Date : <span>Octobre 2022</span></h3>
+                    <br>
                     <h3>Languages : <span>HTML/CSS</span></h3>
+                    <br>
                     <h3>À propos : <span>Mini site crée lors de ma formation sur une entreprise Guyanaise <strong>"Upgrade Computer".</strong></span></h3>
                 </div>  
             </div> 
                 
-            <div id="Integration">
+            <div class="cards" id="Integration">
                 <a href="https://site-maquette.netlify.app/" target="_blank">
-                <h3>Site Maquette</h3>
-                <img class="img-carte" src="medias/Images/Integration.png" height="140" width="285" alt="Image représentant l'appercu de la page">
+                <h3 class="title-card">Site Maquette</h3>
+                <img class="img-carte" src="medias/images/Integration.png" height="140" width="285" alt="Image représentant l'appercu de la page">
                 </a>
 
                 <div class="infos-cartes">
                 <h3>Date : <span>Décembre 2022</span></h3>
+                <br>
                 <h3>Languages : <span>HTML/CSS</span></h3>
-                <h3>À propos : <span>Exercice de reproduction d'une maquette crée lors de ma formation</span></h3>
+                <br>
+                <h3>À propos : <span>Exercice de reproduction d'une maquette crée lors de ma formation.</span></h3>
+                </div>  
+           </div>
+           
+           <div class="cards" id="Integration">
+                <a href="https://boushow.github.io/Flag-Game/" target="_blank">
+                <h3 class="title-card">Flag</h3>
+                <img class="img-carte" src="medias/images/Flag.png" height="140" width="285" alt="Image représentant l'appercu de la page">
+                </a>
+                <div class="infos-cartes">
+                <h3>Date : <span>Novembre 2023</span></h3>
+                <br>
+                <h3>Languages : <span>HTML/CSS/JS</span></h3>
+                <br>
+                <h3>À propos : <span>Projet de groupe ou nous avions comme tâche de réalisé un jeu basé sur des drapeau.</span></h3>
                 </div>  
            </div>
 
@@ -52,14 +74,14 @@
 
         <div class="grille_perso">
 
-            <img id="ID" src="medias/Images/ID.png" height="100" width="100" alt="Image représentant une pièce d'identité" >
+            <img id="ID" src="medias/images/Profile.png" alt="Image représentant une pièce d'identité" >
             
             <p id="apropos">
                 Bonjour moi c'est Robert,
                 <br>
                 <br>
                 J'habite en Guyane plus précisément à Saint Laurent du Maroni ,actuellement étudiant au campus connecté TIC de Limoges en tant qu'apprentie webmaster. 
-                J'y apprends à la fois l'utilisation de langage de programmation telle que l'HTML ou le CSS, mais également le CMS Word Press.
+                J'y apprends à la fois l'utilisation de langage de programmation telle que l'HTML ou le CSS, mais également du JavaScript ainsi que du PHP.
                 <br>
                 <br>
                 Pour parler de moi je suis quelqu'un de passionner par la programmation depuis le collège, avec la confirmation au lycée avec la matière NSI que je décidais de gardé que c'est vers ce domaine que je me projetterai.
@@ -77,15 +99,11 @@
                 <div id="réseaux">
 
                     <a href="https://www.linkedin.com/in/robert-badette-ab0b53260/" target="_blank">
-                        <img id="linkedin" src="medias/Images/Linkedin.png" height="60" width="60">
+                        <img id="linkedin" src="medias/images/Linkedin.png" height="60" width="60">
                     </a>
 
-                    <a href="https://www.facebook.com/profile.php?id=100089281656770" target="_blank">
-                    <img id="facebook" src="medias/Images/Facebook.png" height="60" width="60">
-                    </a>    
-
-                    <a href="https://viadeo.journaldunet.com/p/robert-badette-7983530" target="_blank">
-                        <img id="viadeo" src="medias/Images/Viadeo.png" height="60" width="60">
+                    <a href="https://github.com/Boushow" target="_blank">
+                        <img id="github" src="medias/images/github.png" height="60" width="60">
                     </a>
 
                 </div>
